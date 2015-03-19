@@ -27,14 +27,18 @@ a:hover {
 
 html,
 body {
-    height: 100%;
-    background-color: #333;
-}
-
-body {
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+/*css for full size background image*/
+  background: url(https://lh5.googleusercontent.com/-qs1yj1t6Bcc/VQszvtWH2UI/AAAAAAAAlnU/BLsO3qqQzSE/w2236-h1258-no/15%2B-%2B1) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
